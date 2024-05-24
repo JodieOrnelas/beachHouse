@@ -1,0 +1,72 @@
+body,
+html {
+  height: 100%;
+}
+
+.hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/imgs/beachhouse1.jpg");
+
+  height: 50%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+}
+
+.hero h1 {
+  font-family: "Homemade Apple", cursive;
+}
+
+.hero h3 {
+  font-family: "Allura", cursive;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+.container li {
+  list-style: none;
+  color: #385170;
+  font-size: 18px;
+  padding: 6px;
+  font-family: "Borel", cursive;
+  font-weight: bold;
+}
+
+img.gallery {
+  max-width: 100%;
+  border-radius: 50px;
+  border: 10px, solid rgba(161, 220, 200, 0.79);
+  max-height: 100%;
+}
+
+.row {
+  margin: 15px;
+}
+
+.gallery {
+  background-image: url(/imgs/pexels-nietjuh-1883386.jpg);
+  background-size: cover;
+  padding: 10px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.contact {
+  margin-top: 40px;
+  text-align: center;
+}
