@@ -25,11 +25,11 @@ html {
 }
 
 .hero h1 {
-  font-family: "Homemade Apple", cursive;
+  font-family: "Playfair Display", serif;
 }
 
 .hero h3 {
-  font-family: "Allura", cursive;
+  font-family: "Playfair Display", serif;
 }
 
 .container {
@@ -43,7 +43,7 @@ html {
   color: #385170;
   font-size: 18px;
   padding: 6px;
-  font-family: "Borel", cursive;
+  font-family: "Playfair Display", serif;
   font-weight: bold;
 }
 
@@ -82,7 +82,7 @@ h4 {
 
 .contact h3 {
   font-weight: bold;
-  font-family: "Borel", cursive;
+  font-family: "Playfair Display", serif;
   text-align: center;
 }
 
@@ -92,4 +92,74 @@ h4 {
 
 ul {
   text-align: center;
+}
+
+.slider {
+  width: 1300px;
+  max-width: 100vw;
+  height: 700px;
+  margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+.slider .list {
+  position: absolute;
+  width: max-content;
+  height: 100%;
+  left: 0;
+  top: 0;
+  display: flex;
+  transition: 1s;
+}
+.slider .list img {
+  width: 1300px;
+  max-width: 100vw;
+  height: 100%;
+  object-fit: cover;
+}
+.slider .buttons {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.slider .buttons button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff5;
+  color: #fff;
+  border: none;
+  font-family: monospace;
+  font-weight: bold;
+}
+.slider .dots {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+.slider .dots li {
+  list-style: none;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  margin: 10px;
+  border-radius: 20px;
+  transition: 0.5s;
+}
+.slider .dots li.active {
+  width: 30px;
+}
+@media screen and (max-width: 768px) {
+  .slider {
+    height: 600px;
+  }
 }
