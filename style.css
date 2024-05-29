@@ -71,18 +71,21 @@ img.gallery {
   text-align: center;
 }
 
+.contact li {
+  font-size: 20px;
+}
 li.zelle {
   font-size: 25px;
   margin-top: 25px;
 }
 
 h4 {
-  font-family: "Nunito", sans-serif;
+  font-family: "Playfair Display", serif;
 }
 
 .contact h3 {
   font-weight: bold;
-  font-family: "Playfair Display", serif;
+  font-family: "Nunito", sans-serif;
   text-align: center;
 }
 
@@ -164,4 +167,16 @@ ul {
   .slider {
     height: 600px;
   }
+}
+
+.zelle {
+  margin-right: 25px;
+}
+
+.contact li {
+  font-family: "Nunito", sans-serif;
+}
+
+.at {
+  text-decoration: none;
 }
